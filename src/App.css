@@ -18,17 +18,33 @@
   height: auto;
 }
 
+.profile_image:hover{
+  transform: scale(1.1);
+  transition: .2s;
+
+}  
+
+
+.info-buttons{
+  margin: auto;
+  width: 30%;
+}
+
+
 .fa {
   padding: 20px;
   font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 10px 10px;
+
 }
 
 .fa:hover {
   opacity: 0.7;
+  transform: scale(1.1);
+  transition: .2s;
 }
 
 .fa-linkedin {
@@ -50,4 +66,9 @@
   background: #f5f4f4;
   color: rgb(1, 1, 1);
   
+}
+
+.fa-file-pdf-o{
+  background: white;
+    color:red
 }
